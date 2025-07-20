@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -5,27 +6,19 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
-# Dependency directories
+# Build and dependencies
 node_modules/
-client/node_modules/
-server/node_modules/
-
-# Build output
 dist/
 dist-ssr/
-client/dist/
-server/dist/
-
-# Local env files
 *.local
-.env
-.env.* # covers .env.development, .env.production etc.
 
-# OS files
+# System files
 .DS_Store
+Thumbs.db
 
-# IDE/editor settings
+# Editor files
 .vscode/
 .idea/
 *.suo
@@ -34,6 +27,6 @@ server/dist/
 *.sln
 *.sw?
 
-# By default, ignore all .env files
-client/.env
-server/.env
+# Environment files
+.env
+.env.local
