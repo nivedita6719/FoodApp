@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+dist/
+dist-ssr/
+client/dist/
+server/dist/
+
+# Local env files
+*.local
+.env
+.env.* # covers .env.development, .env.production etc.
+
+# OS files
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# By default, ignore all .env files
+client/.env
+server/.env
